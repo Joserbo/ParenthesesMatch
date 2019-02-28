@@ -22,6 +22,7 @@ public class ParenthesesMatch {
     
     public static boolean parensMatch(String formula)
     {
+        //
         Stack<Character> pila = new Stack<Character>();        
         char[] caracteres = formula.toCharArray();
         for(int i=0; i<formula.length(); i++)
